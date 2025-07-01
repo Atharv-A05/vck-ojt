@@ -8,7 +8,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 import './styles/Pages.css'
 import { useState } from "react";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
-import ChatBotComponents from "./components/Chatbot/ChatbotComponents";
+import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
 const App = () => {
   const [showPopup, setShowPopup] = useState(true);
   const handleClosePopup = () => {
@@ -37,7 +37,7 @@ const App = () => {
           <Route path="/notfound" element={<NotFoundPage/>} />
         </Routes>
       </Router>
-      <ChatBotComponents/>
+      <ChatbotComponent/>
  </>
   )
 }
