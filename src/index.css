@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(10, 10, 10, 0.87);
   background-color: #242424;
 
   font-synthesis: none;
@@ -23,6 +23,7 @@ a:hover {
 }
 
 body {
+   background-color: #52d2d2; /* or any shade of blue you like */
   margin: 0;
   display: flex;
   place-items: center;
